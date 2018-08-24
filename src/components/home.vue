@@ -1,7 +1,6 @@
 <template>
-    <div style="padding-top: 540px;">
+    <div class="home">
         <div id="div1"></div>
-
         <div class="main-text" style=" text-align: right; ">
             <p style=" text-align: right; padding: 30px; "><i>„Un gramme de pratique vaut
                 autant qu'une tonne de théorisation.”</br><span style="color:#f1c065">
@@ -12,12 +11,10 @@
             <img style="width: 100%" src="./../assets/wizja_i_aktualnosci_ludzie.png"/>
         </div>
         <div class="container " >
-            <div class="box-row"style="padding-top:70px;">
-
+            <div class="box-row" style="padding-top:70px;">
                 <div class="col-sm-offset-2 col-sm-8 col-sm-offset-2">
                     <div id="myCarousel" class="carousel slide" data-ride="carousel">  
                         <div class="carousel-inner">
-
                             <div class="item active">
                             <img src="./../assets/feature_slide_1.png"/>
                             </div>
@@ -40,146 +37,128 @@
                         <span class="glyphicon glyphicon-chevron-right"></span>
                         <span class="sr-only">Next</span>
                         </a>
-                </div>
-
-                        </div>
-                        
                     </div>
+                </div>        
             </div>
-            <div>
-      </br>
-      
-        <div class="boxes">
-                <div class="box" >
-                    <div class="box-row">
-                            <div class="col-sm-3 grey-box ">
-                                <p class="middle_white_text"><i class="row">Nos valeurs</i></br>
-                                    <span class="middle_black_text">Nous mettons l’accent sur l'honnêteté, la confiance et la
-                                    coopération commune. Nous établissons des relations d’affaires sur la base d’une aide
-                                    commune (pay it forward).</span>
-                                </p>              
-                                        
-                            </div>
-                            <div class="col-sm-3 grey-box">
-                                <p class="middle_white_text"><i class="row">Nos inspirations</i></br>
-                                    <span class="middle_black_text">„Vouloir c’est pouvoir”. Nous apprécions
-                                    les succès de nos membres qui inspirent les autres à agir. Ils conseillent
-                                    et ils aident à définir une bonne direction dans le monde des affaires.</span>
-                                </p>
-                               
-                            </div>
-                            <div class="col-sm-3 grey-box">
-                                <p class="middle_white_text"><i class="row">Nos possibilités</i></br>
-                                    <span class="middle_black_text">l’Association européenne des praticiens de 
-                                    l’économie rend possible la coopération avec les institutions internationales.
-                                    Elle offre une aide en matière de contenu et financière.</span>
-                                </p>
-                            </div>
-                            <div class="col-sm-3 grey-box">
-                                <p class="middle_white_text"><i class="row">L’AEPE dans le monde des affaires</i></br>
-                                    <span class="middle_black_text">Nous agissons à plusieurs niveaux. Nous 
-                                    soutenons le processus de l’intégration économique des pays européens.</span>
-                                </p>
-                                
-                            </div>
-                        
-                        </div>
-                        </div>
-                        </div>
-
-
-                </div>
-                    </div>
-                </div>  
         </div>
-        
+        <br>
+        <div class="boxes">
+            <div class="box" >
+                <div class="box-row">
+                    <div class="col-sm-3 grey-box ">
+                        <p class="middle_white_text"><i class="row">Nos valeurs</i><br>
+                            <span class="middle_black_text">Nous mettons l’accent sur l'honnêteté, la confiance et la
+                            coopération commune. Nous établissons des relations d’affaires sur la base d’une aide
+                            commune (pay it forward).</span>
+                        </p>                       
+                    </div>
+                    <div class="col-sm-3 grey-box">
+                        <p class="middle_white_text"><i class="row">Nos inspirations</i><br>
+                            <span class="middle_black_text">„Vouloir c’est pouvoir”. Nous apprécions
+                            les succès de nos membres qui inspirent les autres à agir. Ils conseillent
+                            et ils aident à définir une bonne direction dans le monde des affaires.</span>
+                        </p>
+                    </div>
+                    <div class="col-sm-3 grey-box">
+                        <p class="middle_white_text"><i class="row">Nos possibilités</i><br>
+                            <span class="middle_black_text">l’Association européenne des praticiens de 
+                            l’économie rend possible la coopération avec les institutions internationales.
+                            Elle offre une aide en matière de contenu et financière.</span>
+                        </p>
+                    </div>
+                    <div class="col-sm-3 grey-box">
+                        <p class="middle_white_text"><i class="row">L’AEPE dans le monde des affaires</i><br>
+                            <span class="middle_black_text">Nous agissons à plusieurs niveaux. Nous 
+                            soutenons le processus de l’intégration économique des pays européens.</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </template>
 
 
 <style>
-
 #div1 {
-    position: absolute;
-    top: 0;
-    width:100%;
-    height:530px;
-    background: url('./../assets/home_feature.jpg');    
-    background-position: center; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 530px;
+  background: url("./../assets/home_feature.jpg");
+  background-position: center;
 }
 
-.main-text{
-    width: 1050px;
-    margin:0 auto;
-    padding-top:10px;
+.main-text {
+  margin: 0 auto;
+  padding-top: 10px;
 }
-.green_title{
-    color: #5A7247;
-    text-align: center;
-    font-family: arial, Trebuchet, Tahoma, Arial, sans-serif;
-    font-weight: bold;
-}
-
-.boxes{
-   width:100%;
-   height: auto;
-   max-width: 1024px;
-    margin: 0 auto;
-    display: flex;
+.green_title {
+  color: #5a7247;
+  text-align: center;
+  font-family: arial, Trebuchet, Tahoma, Arial, sans-serif;
+  font-weight: bold;
 }
 
-
-.boxes .box{
-    margin: 30px auto;
-    box-sizing: border-box;
-    display: inline;
-    font-size: 18px;
+.boxes {
+  width: 100%;
+  height: auto;
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
 }
 
-.boxes .box .box-row{
-    display: table-row;
-    vertical-align: middle;
-   
+.boxes .box {
+  margin: 30px auto;
+  box-sizing: border-box;
+  display: inline;
+  font-size: 18px;
+}
+
+.boxes .box .box-row {
+  display: table-row;
+  vertical-align: middle;
 }
 .grey-box {
-    border: 5px  white solid;
-    background: #A9A9A9;
-    min-height: 240px;
+  border: 5px white solid;
+  background: #a9a9a9;
+  min-height: 240px;
 }
 
-
+.home {
+  padding-top: 550px;
+}
 
 .homeBackground {
-    background-position: center;
-    background-repeat:no-repeat;
-    background-image: url("./../assets/yydffg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("./../assets/yydffg.jpg");
 }
 
 @media (max-width: 768px) {
-    #logo {
-        display: none;
-    }
+  #div1 {
+    height: 230px;
+  }
 
-    #div1 {
-        height:230px;
-    }
+  .home {
+    padding-top: 200px;
+  }
 
-    .grey-box {
-        min-height: auto;
-    }
+  .grey-box {
+    min-height: auto;
+  }
 
-    .homeContainer {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    .main-text{
-        width: 100%;
-        margin:0 auto;
-        padding: 10px;
-        padding-right: 10px;
-        font-size: 15px;
-
-    }
+  .homeContainer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .main-text {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+  }
 }
-
 </style>

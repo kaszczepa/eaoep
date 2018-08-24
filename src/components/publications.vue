@@ -49,7 +49,6 @@
     line-height: 1.2;
     box-shadow: 1px 1px 5px rgba(0,0,0,.5),
                 0px 0px 0px 1px rgba(0,0,0,.1);
-    float: right;
 }
 .button2:hover{ 
     color: #DC4C46;

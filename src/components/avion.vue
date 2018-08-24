@@ -26,7 +26,7 @@
             </p></br></br>
             <p>&nbsp</p>
             <img class="img_100" src="./../assets/collage_aviones.jpg">
-            Źródło: Sky
+            Source: Sky
         </div>
         <div class="column_container">
             <div class="row">
