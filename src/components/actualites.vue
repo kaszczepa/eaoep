@@ -13,9 +13,9 @@
                             du service à la clientèle qui suscite le sourire, la joie, la satisfaction et le
                             désir de plus - au Japon.(...)
                         </p>
-                    </div></br>
+                    </div><br>
                     <div class="box_picture flight" v-on:click="goToAvion()">
-                        <p>Vols d’affaires pour </br>les membres de l’AEPE</p>
+                        <p>Vols d’affaires pour <br>les membres de l’AEPE</p>
                     </div>
                     <div class="column_text">
                         <p class="font_regular"><b>Vols d’affaires pour les membres de l’AEPE</b></p>

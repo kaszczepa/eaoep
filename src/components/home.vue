@@ -1,6 +1,5 @@
 <template>
     <div class="home">
-        <div id="div1"></div>
         <div class="main-text" style=" text-align: right; ">
             <p style=" text-align: right; padding: 30px; "><i>„Un gramme de pratique vaut
                 autant qu'une tonne de théorisation.”</br><span style="color:#f1c065">
@@ -80,14 +79,16 @@
 
 
 <style>
-#div1 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 530px;
-  background: url("./../assets/home_feature.jpg");
-  background-position: center;
+.whiteWrapper {
+    background: none;
+}
+
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+}
+
+.glyphicon-chevron-left::before, .glyphicon-chevron-right::before {
+    color: red;    
 }
 
 .main-text {
@@ -124,10 +125,10 @@
   border: 5px white solid;
   background: #a9a9a9;
   min-height: 240px;
-}
+}   
 
 .home {
-  padding-top: 550px;
+  padding-top: 370px;
 }
 
 .homeBackground {
@@ -137,12 +138,8 @@
 }
 
 @media (max-width: 768px) {
-  #div1 {
-    height: 230px;
-  }
-
   .home {
-    padding-top: 200px;
+    padding-top: 0;
   }
 
   .grey-box {

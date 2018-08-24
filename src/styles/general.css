@@ -8,6 +8,12 @@ body {
     padding: 0px;
 }
 
+.whiteWrapper {
+    background: white;
+    position: relative;
+    z-index: 1000;
+}
+
 .container {
     max-width: 1024px;
     margin: 0 auto;
@@ -222,14 +228,19 @@ a:focus {
 }
 
 @media (max-width: 768px) {
+    .whiteWrapper {
+        position: static;
+    }
+
     #app {
-        padding-top: 50px;
+        padding-top: 0;
+    }
+    #div1 {
+        height: 50px !important;
     }
     .menu_element {
-        background-color: #45B8AC;
         padding: 0;
         top: 50px;
-        position: fixed;
         right: 0;
         left: 0;
     }
@@ -261,6 +272,10 @@ a:focus {
         padding: 10px;
         width: 100%;
     }
+
+    .hideOnMobile {
+        display: none !important;
+      }
 }
 
 @media (max-width: 600px) {

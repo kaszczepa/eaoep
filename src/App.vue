@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <app-header></app-header>
-    <router-view class="view"></router-view>
+    <div class="whiteWrapper">
+      <router-view class="view"></router-view>
+    </div>
     <app-footer></app-footer>
   </div>
 </template>
@@ -20,12 +22,15 @@
 
 <style>
 .view {
-  padding-top: 130px;
+    margin-top: 160px;
+    z-index: 900;
+    position: relative;
 }
 
 @media (max-width: 768px) {
     .view {
-      padding-top: 0;
+      margin-top: 0;
+      position: static;
     }
 }
 </style>
