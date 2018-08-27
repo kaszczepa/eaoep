@@ -1,42 +1,29 @@
 <template>
     <div class="container">
-          <p class="title">Notre magazine</p>
-          <div class="row">
-        <div class="col-xs-6">
-            <div>
-                <img  src="./../assets/publications.jpg" style="width:100%;">
-            </div>
-            </div>
-        <div class="col-xs-6">
-            <div style=" border: 0.5px solid;">
+        <p class="title">Notre magazine</p>
+        <div class="row">
+            <div class="col-sm-7">
                 <div>
-                <router-link to="/recommandees"><button class="button2">Publications recommandées</button></router-link>
-                <br/>
-                <img src="./../assets/tools_of_titans400x600.png">
-                <p class="font_regular"  > 
-                    Les outils des titans contiennent les observations les plus intéressantes et des fragments de notes ...
+                    <img src="./../assets/publications.jpg" style="width:100%;">
+                </div>
+            </div>
+            <div class="col-sm-5">
+                <div class="col-md-8 col-md-offset-4 col-sm-10 col-sm-offset-2">
+                    <router-link to="/recommandees"><button class="button2">Publications recommandées</button></router-link>
+                    <img src="./../assets/tools_of_titans400x600.png" width="100%"  >
+                    <p class="font_regular"  > 
+                        Les outils des titans contiennent les observations les plus intéressantes et des fragments de notes ...
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-12">
+                <p class="font_regular">
+                    <b> Bientôt, L’AEPE va introduire un nouveau magazine au marché belge, publié gratuitement.</b>
                 </p>
-                </div>
-            </div>   
-            
-        </div>
-
-
-
-           
-            <p class="font_regular">
-               <b> Bientôt, L’AEPE va introduire un nouveau magazine au marché belge, publié gratuitement.</b>
-            </p><br>
-            <p class="font_regular"> 
-                Ce magazine se composera de quatre rubriques: les affaires, la science, la culture et le tourisme. On y retrouvera les thèmes concernant entre autres, l’échange du savoir et des expériences ou l’inspiration et la promotion des bonnes pratiques dans le monde des affaires.
-            </p>
-        </div>
-        
-        <div class="column_container">
-            <div class="row">
-                <div class="column1">
-                    <p> </p>
-                </div>
+                <br>
+                <p class="font_regular"> 
+                    Ce magazine se composera de quatre rubriques: les affaires, la science, la culture et le tourisme. On y retrouvera les thèmes concernant entre autres, l’échange du savoir et des expériences ou l’inspiration et la promotion des bonnes pratiques dans le monde des affaires.
+                </p>
             </div>
         </div>
     </div>
