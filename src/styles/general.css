@@ -53,8 +53,8 @@ body {
 
 .image_left {
     width: 50%;
-    display: left;
     padding: 10px;
+    
 }
 
 .image_right {
@@ -114,7 +114,7 @@ a:focus {
     font-family: Trebuchet, Tahoma, Arial, sans-serif;
 }
 
-.font_bold {
+.font_bold_center {
     text-align: center;
     font-weight: bold;
     line-height: 1.2;
@@ -125,23 +125,14 @@ a:focus {
     text-align: justify;
     line-height: 1.3;
 }
-
+#cytaty{
+    text-align: right;
+    padding: 30px;
+    
+}
 /* Left and right column */
 
-.column_67 {
-    width: 67%;
-    padding: 10px;
-    float: left;
-}
 
-.column_33 {
-    width: 22%;
-    float: left;
-    padding: 10px;
-    border-left: 0.5px solid;
-    margin: 120px 10px 40px 10px;
-    background: transparent;
-}
 
 .img_66 {
     width: 66%;
@@ -156,11 +147,7 @@ a:focus {
     padding: 40px;
 }
 
-.img_22 {
-    width: 86%;
-    float: none;
-    margin: 0 auto;
-}
+
 
 .wrapper {
     padding: 30px 50px 30px 0px;
@@ -262,15 +249,17 @@ a:focus {
         text-transform: uppercase;
         margin: 0 auto;
     }
-    .column_container {
-        margin: 0px;
-        padding: 10px;
-        width: 100%;
-    }
+    
 
     .hideOnMobile {
         display: none !important;
       }
+      #cytaty{
+        text-align: right;
+        padding: 30px;
+        padding: 0 auto;
+        font-size: 15px;
+    }
 }
 
 @media (max-width: 600px) {
@@ -284,17 +273,14 @@ a:focus {
     .column {
         display: block;
     }
-    .column_67 {
+    
+    .image_left,.image_right  {
         width: 100%;
-        padding: 10px;
-        float: center;
+        display: center;
+        
     }
-    .column_33 {
-        width: 50%;
-        float: middle;
-        padding: 10px;
-        border: 1px solid;
-    }
+    
+   
 }
 
 @media (max-width: 320px) {

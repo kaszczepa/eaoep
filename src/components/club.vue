@@ -1,11 +1,16 @@
 <template>
     <div>
         <div class="container">
+
             <p class="title container">Club</p>
-            <p class="font_regular"><i>„Bientôt, on va nous concentrer sur le profit de la vie, et non sur la
-                 carrière, et le travail sera perçu comme une série d’activités ou de projets.”
-            </br>Jonas Ridderstrale</i><br><br>
-            <img  class="img_100"src="./../assets/meeting.jpg" align="right">
+
+            <div >
+                <p id="cytaty"><i>„Bientôt, on va nous concentrer sur le profit de la vie, et non sur la
+                    carrière, et le travail sera perçu comme une série d’activités ou de projets.”</i><br><i><span style="color:#f1c065">Jonas Ridderstrale</span></i>
+                    </p> 
+            </div>
+            
+            <img  class="img_100"src="./../assets/adult-blur-close-up-736842.jpg" align="right">
             <p>Nous promouvons l’idée de l'équilibre entre la vie professionnelle et la vie privée qui incite à
                 définir ses priorités et déterminer des limites. Il ne s’agit pas de gérer son temps mais plutôt de 
                 gérer son énergie. Notre concept permet d'atteindre un équilibre approprié entre le travail et la vie

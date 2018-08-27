@@ -3,10 +3,12 @@
         <p class="title">Qui sommes-nous?
         </p>
         <div class="font_regular">
-            <p class="title" style="font-size:16px; padding:10px;"><b>Unir et soutenir les acteurs du monde des affaires: voici l’une des missions </br>  de l’Association européenne des praticiens de l’économie (AEPE).</b>
+            <p class="title" style="font-size:16px; padding:10px;"><b>Unir et soutenir les acteurs du monde
+                des affaires: voici l’une des missions <br/>  de l’Association européenne des praticiens de
+                l’économie (AEPE).</b>
             </p>
-            <img  class="image_left"src="./../assets/sommes.jpg" align="left">
-            <span>&nbsp</span>
+            <img style="padding-top: 40px;" class="image_left" src="./../assets/sommes.jpg" align="left">
+            <br/>
             <p>Elle influence fortement le développement de l’économie et belge par la promotion de l’idée de 
                 coopération et de la culture d’une aide commune (pay it forward) . Ce travail approfondit 
                 l’intégration du monde des affaires de différents domaines et il permet de mieux développer

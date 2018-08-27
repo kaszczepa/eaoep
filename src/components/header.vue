@@ -128,7 +128,7 @@
     display: block;
   }
 
-  .home {
+  .home1 {
     float: left;
     margin: 8px;
   }

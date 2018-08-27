@@ -1,11 +1,29 @@
 <template>
     <div class="container">
-        <div class="column_67 ">
-            <p class="title">Notre magazine</p>
-            <div class="imageContainer">
-                <img class="img_66" src="./../assets/publications.jpg">
+          <p class="title">Notre magazine</p>
+          <div class="row">
+        <div class="col-xs-6">
+            <div>
+                <img  src="./../assets/publications.jpg" style="width:100%;">
             </div>
-            <p>&nbsp</p>
+            </div>
+        <div class="col-xs-6">
+            <div style=" border: 0.5px solid;">
+                <div>
+                <router-link to="/recommandees"><button class="button2">Publications recommandées</button></router-link>
+                <br/>
+                <img src="./../assets/tools_of_titans400x600.png">
+                <p class="font_regular"  > 
+                    Les outils des titans contiennent les observations les plus intéressantes et des fragments de notes ...
+                </p>
+                </div>
+            </div>   
+            
+        </div>
+
+
+
+           
             <p class="font_regular">
                <b> Bientôt, L’AEPE va introduire un nouveau magazine au marché belge, publié gratuitement.</b>
             </p><br>
@@ -13,19 +31,7 @@
                 Ce magazine se composera de quatre rubriques: les affaires, la science, la culture et le tourisme. On y retrouvera les thèmes concernant entre autres, l’échange du savoir et des expériences ou l’inspiration et la promotion des bonnes pratiques dans le monde des affaires.
             </p>
         </div>
-        <div class="column_33" >
-            <router-link to="/recommandees"><button class="button2">Publications recommandées</button></router-link>
-            
-            <p class="font_title"><b>  <span class="title"></span></b></p> 
-            <hr>
-            <img  class="img_22" src="./../assets/tools_of_titans400x600.png">
-            <p class="font_regular"> 
-                Les outils des titans contiennent les observations les plus intéressantes et des fragments de notes ...
-            </p>
-            <hr>
-            <p>&nbsp</p>
-            <p>&nbsp</p>
-        </div>
+        
         <div class="column_container">
             <div class="row">
                 <div class="column1">
@@ -38,6 +44,31 @@
 
 
 <style>
+
+.column_67 {
+    width: 67%;
+    padding: 10px;
+    float: left;
+}
+
+.column_33 {
+    width: 22%;
+    float: left;
+    padding: 10px;
+    border-left: 0.5px solid;
+    margin: 120px 10px 40px 10px;
+    background: transparent;
+}
+.img_22 {
+    width: 86%;
+    float: none;
+    margin: 0 auto;
+}
+.column_container {
+        margin: 0px;
+        padding: 10px;
+        width: 100%;
+    }
 .button2{
     font-weight: bold;
     -webkit-transition: all .5s;
@@ -56,6 +87,20 @@
     background: white;
 }
 
+@media (max-width: 994px) {
+.column_67, .column_33 {
+    width: 100%;
+    padding: 10px;
+}
 
+.column_33 {
+    width: 35%;
+    padding: 10px;
+    border:none;
+    margin: 120px 10px 40px 10px;
+    background: transparent;
+    display:inline;
+}
+}
 
 </style>

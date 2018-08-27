@@ -6,14 +6,16 @@
                 aux actions. Parmi les membres de l’Association européenne des praticiens de l’économie il y a 
                 des membres adhérants, soutenants et honoraires.
             </p><br>
-            <img  class="image_left"src="./../assets/adhesion3.jpg" >
-            <p class="font_bold">Pour devenir membre de l’AEPE, il vous suffit de remplir une demande
+            <img  class="image_left" style="padding-top: 25px;" align="left" src="./../assets/blond-board-coworker-1065705.jpg" >
+
+            <p class="font_bold_center" style="align: right;">Pour devenir membre de l’AEPE, il vous suffit de remplir une demande
                 d’adhésion et de payer une cotisation (mensuelle ou annuelle).
             </p>
-            <ul class="list0 nls-None font_regular" >
+            <ul class="list0 nls-None font_regular" style="list-style-type: none; text-align:right; padding-right: 45px;" >
                 <li>Cotisation d’adhésion mensuelle – 100 euros</li>
                 <li>Cotisation d’adhésion annuelle – 1000 euros</li>
             </ul>
+            <br/>
             <p class="font_regular">Nous cherchons notre inspiration dans les bonnes pratiques de l’Université
                 de Yale, concentrées sur le bien et la dignité des étudiants, qui leur offrent une aide financière.
                 Les diplômés rejoignent l’élite intellectuelle. Ils créent les plus grands projets et au titre 
@@ -28,10 +30,11 @@
                 <br> Chaque personne souhaitant encourager les actions de l’AEPE et contribuer à réaliser sa
                 mission statutaire, peut la soutenir financièrement.
             </p>
-            <p class="font_bold">Des avantages de l’adhésion à l’AEPE
+            <hr>
+            <p class="font_bold_center">Des avantages de l’adhésion à l’AEPE
             </p>
-            <img  width="100%" src="./../assets/adhesion2.jpg"><br>
-            <p class="font_regular">Les membres, au titre des cotisations payées, peuvent participer à 
+            <img  width="100%" src="./../assets/adhesion2.jpg"><br/>
+            <p class="font_regular" style="padding-top: 10px;">Les membres, au titre des cotisations payées, peuvent participer à 
                 tous les évènements organisés par l’AEPE (des congrès, des séminaires et des conférences). 
                 En plus, ils bénéficient:
             </p>
@@ -41,14 +44,15 @@
                 <li>de la promotion de l’entreprise au marché international</li>
                 <li>de la représentation aux institutions gouvernementales, nationales et européennes</li>
                 <li>des informations sur les marchés internationaux et sur des clients potentiels</li>
-                </ul>
-            <p>&nbsp</p>
+                </ul><br/>
+            
             <p class="font_title" style="text-align: right">Pour toutes questions, contactez-nous: 
                 e-mail: <i style="color:#F7786B">office@eaoep.eu</i>
             </p>
+            <hr>
             <div class=" mail">
-                <hr>
-                <p class="font_bold">Pour devenir membre de l’AEPE, </br>remplissez le formulaire ci-dessous:
+                
+                <p class="font_bold_center">Pour devenir membre de l’AEPE, </br>remplissez le formulaire ci-dessous:
                 </p>
                 <hr>
                 <p>Nom/Prénom:</p>
